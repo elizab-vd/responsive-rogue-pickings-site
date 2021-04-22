@@ -178,6 +178,7 @@ footer span {
 	color: #77a466;
 	font-size: 1rem;
 }
+
 /*---------------------------FOR TABLETS MIN 768PX ------------------------------*/
 
 @media (min-width: 768px) {
@@ -207,7 +208,7 @@ footer span {
 		width: 95%; 
 		height: 100%;
 		display: flex; 
-		justify-content: flex-start;
+		justify-content: center;
 		flex-flow: row wrap;
 		align-items: flex-start;
 		border-top: 1px solid #eee; 
@@ -240,6 +241,7 @@ footer span {
 	}
 
 }
+
 /*-------------------------FOR DESKTOPS MIN 1200PX--------------*/
 
 @media (min-width: 1200px) {
@@ -309,7 +311,7 @@ footer span {
 		width: 90%;  
 		height: 100%;
 		display: flex; 
-		justify-content: flex-start;
+		justify-content: center;
 		flex-flow: row wrap;
 		align-items: flex-start;
 		border-top: 1px solid #eee; 
@@ -339,12 +341,13 @@ footer span {
 
 	.menu li {
 		margin: 10px 0 20px 0;
+		font-size: 1rem; 
 	}
 
 	footer {
 		width: 90%; 
 		margin: 0 50px;
-		padding-top: 10px; 
+		padding: 10px 10px;; 
 		font-size: 2rem; 
 	}
 
